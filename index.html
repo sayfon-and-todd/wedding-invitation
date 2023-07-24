@@ -1,0 +1,78 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+
+  <!-- Add your site or application content here -->
+
+  <lottie-player
+  id="firstLottie"
+  src="JSON/Inv02.json">
+    </lottie-player>
+  
+
+  
+    <script src="js/main.js"></script>
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@0.4.0/dist/lottie-player.js"></script> 
+  <script src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js"></script>
+
+
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+  
+  <script>
+  LottieInteractivity.create({
+    player: '#firstLottie',
+    mode: 'chain',
+    actions: [
+      {
+          state: 'autoplay',
+          transition: 'click',
+          frames: [0, 60],
+      },
+      {
+          state: 'autoplay',
+          transition: 'onComplete',
+        forceFlag: false,
+          frames: [60, 120],
+      },
+      {
+      state: 'autoplay',
+          position: { x: [0, 1], y: [0, 1] },
+          type: "seek",
+            forceFlag: false,
+          frames: [120, 180],
+        transition: "seek",
+      
+      },
+    ]
+  });
+</script>
+            
+            
+</body>
+
+</html>
