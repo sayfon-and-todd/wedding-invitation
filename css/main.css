@@ -262,4 +262,4 @@ textarea {
 }
 
 #firstLottie {max-width: 600px;}
-.center01 {text-align: center;}
+.center01 {justify-content: center;}
