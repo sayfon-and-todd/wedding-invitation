@@ -268,10 +268,10 @@ textarea {
   padding: 10px;}
 
 #firstLottie {width: 600px;}
-.url02 {width: 200px;
+.url02 {width: 180px;
        
        position: absolute;
-  top: 102%;
+  top: 100%;
   left: 50%;
   transform: translate(-50%, -50%);}
 .audiodiv {
