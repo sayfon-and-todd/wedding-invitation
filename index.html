@@ -95,16 +95,21 @@
       },
       {
           state: 'autoplay',
-          transition: 'onComplete',
-        forceFlag: false,
+          transition: 'click',
           frames: [60, 120],
       },
       {
       state: 'autoplay',
+          frames: [120, 150],
+        transition: "onComplete",
+      
+      },
+      {
+      
           position: { x: [0, 1], y: [0, 1] },
           type: "seek",
             forceFlag: false,
-          frames: [120, 180],
+          frames: [150, 240],
         transition: "seek",
       
       },
