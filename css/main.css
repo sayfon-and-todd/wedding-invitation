@@ -277,6 +277,12 @@ transform: translate(-50%, -50%);}
 
 .aud {
    position: absolute;
-    top: 100%;
-    right: 20%;
+top: 100%;
+right: 35%;
+scale: 80%;
+opacity: 80%;
+}
+
+@media only screen and (max-width: 600px) {
+  .url02 {max-width: 100px;}
 }
