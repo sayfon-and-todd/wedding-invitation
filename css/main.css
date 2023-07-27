@@ -267,8 +267,8 @@ textarea {
   transform: translate(-50%, -50%);
   padding: 10px;}
 
-#firstLottie {width: 600px;}
-.url02 {width: 180px;
+#firstLottie {max-width: 600px;}
+.url02 {max-width: 180px;
        
        position: absolute;
   top: 100%;
