@@ -269,7 +269,11 @@ textarea {
 
 #firstLottie {max-width: 600px;}
 
-.url02 {max-width: 180px;}
+.url02 {max-width: 160px;
+position: relative;
+top: 100%;
+left: 50%;
+transform: translate(-50%, -50%);}
 
 .audiodiv {
    position: absolute;
