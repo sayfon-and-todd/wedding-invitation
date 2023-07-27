@@ -275,8 +275,8 @@ top: 100%;
 left: 50%;
 transform: translate(-50%, -50%);}
 
-.audiodiv {
+.aud {
    position: absolute;
     top: 100%;
-    right: 80%;
+    right: 20%;
 }
