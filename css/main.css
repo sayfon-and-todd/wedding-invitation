@@ -296,4 +296,7 @@ left: 5%;
 
 @media only screen and (max-width: 600px) {
   .url02 {max-width: 100px;}
+   #music-button {
+  width: 20px;}
+
 }
