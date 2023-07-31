@@ -287,7 +287,10 @@ opacity: 80%;
 #music-button {
   width: 40px;
 background: none;
-   border: none;
+border: none;
+position: absolute;
+top: 93%;
+left: 5%;
 
 }
 
