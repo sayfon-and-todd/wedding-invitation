@@ -286,9 +286,8 @@ opacity: 80%;
 
 #music-button {
   width: 40px;
-   position: absolute;
-top: 100%;
-right: 35%;
+background: none;
+   border: none;
 
 }
 
