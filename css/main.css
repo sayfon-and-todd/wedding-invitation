@@ -271,8 +271,8 @@ textarea {
 
 .url02 {max-width: 160px;
 position: relative;
-top: 100%;
-left: 50%;
+top: 50%;
+left: 71%;
 transform: translate(-50%, -50%);}
 
 .aud {
@@ -287,8 +287,8 @@ opacity: 80%;
 #music-button {
   width: 160px;
 position: relative;
-top: 100%;
-left: 50%;
+top: 0%;
+left: 32%;
 transform: translate(-50%, -50%);
 background: none;
 border: none;}
