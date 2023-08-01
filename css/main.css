@@ -321,8 +321,8 @@ border: none;
 
 
 @media only screen and (max-width: 800px) {
-  .url02 {max-width: 100px;}
+  .url02 {max-width: 80px;}
    #music-button {
-   width: 100px;}
+   width: 80px;}
 
 }
