@@ -312,7 +312,7 @@ border: none;
   transition: all 0.8s
 }
 
-.button:active:after {
+#music-button:active:after {
   padding: 0;
   margin: 0;
   opacity: 1;
