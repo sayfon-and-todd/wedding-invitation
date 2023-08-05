@@ -264,8 +264,7 @@ textarea {
 .center01 {position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  padding: 10px;}
+  transform: translate(-50%, -50%);}
 
 #firstLottie {max-width: 600px;}
 
